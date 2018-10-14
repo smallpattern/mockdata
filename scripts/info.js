@@ -1,8 +1,9 @@
 'use strict';
 
-module.exports = function(req, res, mocks) {
-    const cities = mocks.cities;
-    const contacts = mocks.contacts;
+const cities = require('./cities.json');
+const contacts = require('./contacts.json');
+
+module.exports = function(req, res) {
     const name = req.query.name;
 
     for (let i = 0, n = contacts.length; i < n; i++) {
