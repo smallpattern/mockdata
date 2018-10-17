@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = function(req, res, mocks) {
-    /* goodbye */
+    /* hello goodbye */
     const cities = mocks.cities;
     const contacts = mocks.contacts;
     const name = req.query.name;
