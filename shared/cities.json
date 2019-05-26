@@ -10,5 +10,17 @@
     {
       "name": "Chicago",
       "state": "IL"
+    },
+    {
+      "name": "Austin",
+      "state": "TX"
+    },
+    {
+      "name": "Santa Clara",
+      "state": "CA"
+    },
+    {
+      "name": "Springfield",
+      "state": "IL"
     }
 ]

@@ -1,7 +1,8 @@
 'use strict';
 
-const cities = require('./cities.json');
+const cities = require('../shared/cities.json');
 const contacts = require('./contacts.json');
+const moreContacts = require('./data/contacts.json');
 
 module.exports = function(req) {
     const name = req.query.name;
